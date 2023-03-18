@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "projects": {
+    "admin-portal": "apps/admin-portal",
+    "admin-portal-e2e": "apps/admin-portal-e2e",
+    "articles": "libs/articles",
+    "auth": "libs/auth",
+    "brands": "libs/brands",
+    "capital-creative": "apps/capital-creative",
+    "capital-creative-e2e": "apps/capital-creative-e2e",
+    "contact": "libs/contact",
+    "core": "libs/core",
+    "dashboard": "libs/dashboard",
+    "messages": "libs/messages",
+    "news": "libs/news",
+    "products": "libs/products",
+    "projects": "libs/projects",
+    "trogon-website": "apps/trogon-website",
+    "trogon-website-e2e": "apps/trogon-website-e2e",
+    "users": "libs/users"
+  }
+}

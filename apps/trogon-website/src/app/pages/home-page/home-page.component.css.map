@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sources": [
+    "home-page.component.scss",
+    "home-page.component.css"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACI,aAAA;EACA,sBAAA;ACCJ",
+  "file": "home-page.component.css"
+}

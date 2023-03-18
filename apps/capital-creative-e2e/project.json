@@ -1,0 +1,28 @@
+{
+  "root": "apps/capital-creative-e2e",
+  "sourceRoot": "apps/capital-creative-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/capital-creative-e2e/cypress.json",
+        "devServerTarget": "capital-creative:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "capital-creative:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/capital-creative-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["capital-creative"]
+}

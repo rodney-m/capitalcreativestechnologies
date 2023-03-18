@@ -1,0 +1,17 @@
+@charset "UTF-8";
+h2 {
+  color: var(--primary-yellow);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "•";
+  color: var(--primary-yellow);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}/*# sourceMappingURL=about-body.component.css.map */

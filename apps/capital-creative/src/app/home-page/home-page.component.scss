@@ -1,0 +1,74 @@
+.carousel-item .overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    height: calc(100vh - 85px);
+    position: absolute;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-25%);
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: calc(100vh - 85px);
+  }
+  
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: calc(100vh - 85px);
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .btn, button {
+    background-color: transparent !important;
+  }
+  
+  .button {
+    background-color: #F2A633 !important;
+  }/*# sourceMappingURL=homepage-hero.component.css.map */
+
+
+  .services-section {
+    margin-top: 140px;
+  }
+  .services-section .section-heading h2 {
+    color: #1e1e1e;
+  }
+  .services-section .service-item {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 50px 40px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .services-page .service-item {
+    margin-bottom: 30px;
+  }
+  .services-section .service-item i {
+    color: #fff;
+    background-color: var(--primary-yellow);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 32px;
+  }
+  .services-section .service-item h4 {
+    margin-top: 35px;
+    font-size: 19px;
+    color: #1e1e1e;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+  }

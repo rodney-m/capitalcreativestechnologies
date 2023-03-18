@@ -1,0 +1,23 @@
+{
+  "projectType": "library",
+  "root": "libs/messages",
+  "sourceRoot": "libs/messages/src",
+  "prefix": "trogon-energy",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/messages"],
+      "options": {
+        "jestConfig": "libs/messages/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/messages/**/*.ts", "libs/messages/**/*.html"]
+      }
+    }
+  },
+  "tags": []
+}

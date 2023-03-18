@@ -1,0 +1,36 @@
+.carousel-item .overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  height: calc(100vh - 85px);
+  position: absolute;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-25%);
+  z-index: 10;
+}
+
+.carousel-item {
+  height: calc(100vh - 85px);
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: calc(100vh - 85px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn, button {
+  background-color: transparent !important;
+}
+
+.button {
+  background-color: #F2A633 !important;
+}/*# sourceMappingURL=homepage-hero.component.css.map */
